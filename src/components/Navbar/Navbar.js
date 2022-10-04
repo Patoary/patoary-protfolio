@@ -14,9 +14,9 @@ const Navbar = () => {
                     onClick={() => setSidebar(!sidebar)}
                 >
                     <Link to='/' className='nav-link'>Home</Link>
-                    <Link to='/' className='nav-link'>About</Link>
-                    <Link to='/' className='nav-link'>Resume</Link>
-                    <Link to='/' className='nav-link'>protfolio</Link>
+                    <Link to='/about' className='nav-link'>About</Link>
+                    <Link to='/resume' className='nav-link'>Resume</Link>
+                    <Link to='/portfolio' className='nav-link'>portfolio</Link>
                     <Link to='/blogs' className='nav-link'>Blogs</Link>
                 </ul>
                 <div>
