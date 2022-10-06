@@ -18,6 +18,7 @@ const Navbar = () => {
                     <Link to='/resume' className='nav-link'>Resume</Link>
                     <Link to='/portfolio' className='nav-link'>portfolio</Link>
                     <Link to='/blogs' className='nav-link'>Blogs</Link>
+                    <Link to='/contact' className='nav-link'>Contact</Link>
                 </ul>
                 <div>
                     <button className='nav-toggler' onClick={() => setSidebar(!sidebar)}>

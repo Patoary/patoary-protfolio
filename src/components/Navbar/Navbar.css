@@ -17,18 +17,23 @@ a {
   padding-right: 90px;
   height: 80px;
   background-color: #212428;
-    color: #c5d0de;
+  color: #c5d0de;
+  position: fixed;
+  top:0;
+  overflow: hidden;
+  z-index: 9;
 
 }
-.nav-brand{
-text-transform: uppercase;
+
+.nav-brand {
+  text-transform: uppercase;
 }
 
 .nav-menu {
   display: flex;
   align-items: center;
   gap: 40px;
- 
+
 }
 
 .nav-toggler {
@@ -43,33 +48,31 @@ text-transform: uppercase;
 
 @media screen and (max-width: 768px) {
   .nav-toggler {
-      display: block;
-      font-size: 20px;
-      background: none;
-      border: none;
-      transition: 650ms;
-      
-
+    display: block;
+    font-size: 20px;
+    background: none;
+    border: none;
+    transition: 650ms;
   }
 
   .nav-menu {
     background-color: #212428;
-          top: 75px;
-      width: 200px;
-      height: 100vh;
-      display: flex;
-      justify-content: start;
-      flex-direction: column;
-      gap: 50px;
-      position: fixed;
-      right: -100%;
-      transition: 650ms;
+    top: 75px;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 50px;
+    position: fixed;
+    right: -100%;
+    transition: 650ms;
 
   }
 
   .nav-menu.active {
-      right: 0;
-      transition: 600ms;
+    right: 0;
+    transition: 600ms;
 
   }
 
