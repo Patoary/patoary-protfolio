@@ -1,0 +1,24 @@
+.service-card {
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #ffff, #ffff);
+  box-shadow: 5px 5px 10px #d5d5d5d1, -3px -3px 10px #cecece;
+  color: #000000a2;
+  transition: bottom 0.3s ease-in-out;
+}
+
+.service-card:hover::after {
+  opacity: .5;
+}
+
+.service-card:hover {
+  bottom: 10px;
+  color: #000000;
+}

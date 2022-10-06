@@ -9,6 +9,8 @@ import Contact from './pages/Contact/Contact'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import LandingPage from './pages/LandingPage/LandingPage';
+import Services from './pages/Services/Services';
 
 function App() {
 
@@ -20,11 +22,14 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='/about' element={<About />}></Route>
-        <Route path='/portfolio' element={<Portfolio />}></Route>
-        <Route path='/resume' element={<Resume />}></Route>
-        <Route path='/contact' element={<Contact />}></Route>
+        <Route path="" element={<LandingPage />} />
+        <Route path="landing" element={<LandingPage />} />
+        <Route path="landing#home" element={<Home />} />
+        <Route path="landing#portfolio" element={<Portfolio />} />
+        <Route path="landing#resume" element={<Resume />} />
+        <Route path="landing#services" element={<Services />} />
+        <Route path="landing#contact" element={<Contact />} />
+        <Route path="about-me" element={<About />} />
       </Routes>
     </div>
   );
