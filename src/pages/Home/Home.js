@@ -9,7 +9,7 @@ import * as FaIcons from "react-icons/fa";
 const Home = () => {
     return (
         <div className="" id="home">
-            <div className="max-w-7xl mx-auto mt-20 xsm:mt-20 flex flex-col-reverse lg:flex-row xsm:mx-12 justify-between items-center">
+            <div className="max-w-7xl mx-12 lg:mx-auto mt-20 xsm:mt-20 flex flex-col-reverse lg:flex-row justify-between items-center">
                 <div className="w-full lg:w-2/3">
                     <div>
                         <p
