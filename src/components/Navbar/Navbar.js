@@ -18,7 +18,6 @@ const Navbar = () => {
                     <Link smooth to='/landing#resume' className='nav-link'>Resume</Link>
                     <Link smooth to='/landing#portfolio' className='nav-link'>portfolio</Link>
                     <Link smooth to='/about' className='nav-link'>About</Link>
-                    <Link smooth to='/blogs' className='nav-link'>Blogs</Link>
                     <Link smooth to='/landing#contact' className='nav-link'>Contact</Link>
                 </ul>
                 <div>

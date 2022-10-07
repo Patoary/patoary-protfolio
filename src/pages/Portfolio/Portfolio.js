@@ -41,13 +41,13 @@ const Portfolio = () => {
   ];
 
   return (
-    <div id="portfolio" className="text-white max-w-7xl mx-auto">
+    <div id="portfolio" className="text-white max-w-7xl mx-auto mt-10">
       <div data-aos="zoom-in" data-aos-duration="500">
         <p className="text-xs lg:text-sm text-secondary uppercase">
           VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
         </p>
-        <p className="text-accent font-bold text-3xl lg:text-5xl mb-10">
-          My Full Stack Projects
+        <p className="text-primary font-bold text-3xl lg:text-5xl mb-10 mt-2">
+          My Projects
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">

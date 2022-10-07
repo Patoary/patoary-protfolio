@@ -84,7 +84,7 @@ const Home = () => {
                             <Link
                                 smooth
                                 className="anchor-button py-[0.85rem] px-4 lg:px-12"
-                                to="/contact"
+                                to="/landing#contact"
                             >
                                 Hire me
                             </Link>

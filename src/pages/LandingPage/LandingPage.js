@@ -3,6 +3,7 @@ import Home from '../Home/Home';
 import Portfolio from '../Portfolio/Portfolio';
 import Services from '../Services/Services';
 import Resume from '../Resume/Resume';
+import Contact from '../Contact/Contact';
 const LandingPage = () => {
     return (
         <div>
@@ -10,6 +11,7 @@ const LandingPage = () => {
             <Services/>
             <Resume/>
             <Portfolio/>
+            <Contact/>
         </div>
     );
 };
