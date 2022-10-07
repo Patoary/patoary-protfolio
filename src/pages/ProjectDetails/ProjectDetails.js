@@ -8,8 +8,6 @@ import * as FaIcon from 'react-icons/fa';
 const ProjectDetails = () => {
     const { id } = useParams();
     const [project, setProject] = useState({});
-    const [modalIsOpen, setIsOpen] = useState(false);
-    const [openedImage, setOpenedImage] = useState("");
 
     const projects = [
         {

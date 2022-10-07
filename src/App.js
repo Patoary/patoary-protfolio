@@ -5,7 +5,6 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Resume from './pages/Resume/Resume';
-import Contact from './pages/Contact/Contact'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -29,7 +28,6 @@ function App() {
         <Route path="landing#portfolio" element={<Portfolio />} />
         <Route path="landing#resume" element={<Resume />} />
         <Route path="landing#services" element={<Services />} />
-        <Route path="landing#contact" element={<Contact />} />
         <Route path="about" element={<About />} />
         <Route path="project/:id" element={<ProjectDetails/>}/>
       </Routes>
