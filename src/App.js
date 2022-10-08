@@ -11,6 +11,7 @@ import { useEffect } from 'react';
 import LandingPage from './pages/LandingPage/LandingPage';
 import Services from './pages/Services/Services';
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="project/:id" element={<ProjectDetails/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }

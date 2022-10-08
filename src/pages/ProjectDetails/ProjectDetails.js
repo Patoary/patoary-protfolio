@@ -9,6 +9,7 @@ const ProjectDetails = () => {
     const { id } = useParams();
     const [project, setProject] = useState({});
 
+
     const projects = [
         {
             id: 1,
@@ -146,7 +147,7 @@ const ProjectDetails = () => {
                         </div>
                     </div>
                     <div className="button-content flex justify-between mt-5">
-                        <Link
+                        <a
                             href={project?.links?.live}
                             target="_blank"
                             rel="noreferrer"
@@ -154,8 +155,8 @@ const ProjectDetails = () => {
                         >
                             <FaIcon.FaCircle className="text-secondary mr-2"/>
                             View Live
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             href={project?.links?.client}
                             target="_blank"
                             rel="noreferrer"
@@ -163,8 +164,8 @@ const ProjectDetails = () => {
                         >
                             <FaIcon.FaGithub className="text-secondary mr-2"/>
                             Client Code
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             href={project?.links?.server}
                             target="_blank"
                             rel="noreferrer"
@@ -174,7 +175,7 @@ const ProjectDetails = () => {
                             <FaIcon.FaGithub className="text-secondary mr-2"/>
                             
                             Server Code
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>
