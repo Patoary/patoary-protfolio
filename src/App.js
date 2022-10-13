@@ -22,6 +22,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <div className='mx-12'>
       <Routes>
         <Route path="" element={<LandingPage />} />
         <Route path="landing" element={<LandingPage />} />
@@ -32,6 +33,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="project/:id" element={<ProjectDetails/>}/>
       </Routes>
+      </div>
       <Footer/>
     </div>
   );

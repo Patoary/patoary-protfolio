@@ -10,6 +10,7 @@ const LandingPage = () => {
             <Services/>
             <Resume/>
             <Portfolio/>
+            
         </div>
     );
 };

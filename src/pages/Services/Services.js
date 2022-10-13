@@ -51,7 +51,7 @@ const Services = () => {
   ];
 
   return (
-    <div id="services" className="text-white max-w-7xl mx-12 lg:mx-auto">
+    <div id="services" className="text-white max-w-7xl lg:mx-auto">
       <div data-aos="zoom-in" data-aos-duration="500">
         <p className="text-xs lg:text-2xl text-center font-bold text-secondary uppercase">Services</p>
         <p className="text-primary font-bold text-3xl lg:text-5xl mb-10">

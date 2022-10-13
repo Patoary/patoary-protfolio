@@ -41,7 +41,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <div id="portfolio" className="text-white max-w-7xl mx-auto mt-10">
+    <div id="portfolio" className="text-white max-w-7xl lg:mx-auto mt-10">
       <div data-aos="zoom-in" data-aos-duration="500">
         <p className="text-xs lg:text-sm text-secondary uppercase">
           VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
