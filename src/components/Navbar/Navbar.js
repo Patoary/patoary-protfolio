@@ -18,7 +18,9 @@ const Navbar = () => {
                     <Link smooth to='/landing#resume' className='nav-link'>Resume</Link>
                     <Link smooth to='/landing#portfolio' className='nav-link'>portfolio</Link>
                     <Link smooth to='/about' className='nav-link'>About</Link>
+
                 </ul>
+                
                 <div>
                     <button className='nav-toggler' onClick={() => setSidebar(!sidebar)}>
                         {sidebar ? (<Link to='#'><AiIons.AiOutlineClose /></Link>)

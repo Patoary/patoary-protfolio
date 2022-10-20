@@ -45,6 +45,10 @@ a {
   transition: ease-in-out .4s;
 
 }
+.translate{
+  position: relative;
+  margin-right: 0;
+}
 
 @media screen and (max-width: 768px) {
   .nav-toggler {
